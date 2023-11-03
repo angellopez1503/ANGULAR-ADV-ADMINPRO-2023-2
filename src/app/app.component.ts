@@ -10,10 +10,14 @@ declare function customInitFunctions():void
 export class AppComponent implements OnInit {
   title = 'adminpro';
 
+  constructor(){
+
+  }
+
   ngOnInit(): void {
 
     setTimeout(()=>{
-     customInitFunctions()
+      customInitFunctions()
     },50)
 
    }
